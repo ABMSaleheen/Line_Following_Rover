@@ -43,7 +43,7 @@ def generate_launch_description():
 
         Node(
             package='joint_state_publisher',
-            executable='joint_state_publisher', #'joint_state_publisher_gui'
+            executable='joint_state_publisher',
             name='joint_state_publisher',
             arguments=[urdf_rviz]),
 
@@ -75,12 +75,6 @@ def generate_launch_description():
             # arguments=['-file', urdf_rviz, '-name', 'rover_proto_A1_rviz'], # changed to urdf_rviz from urdf
             output='screen'
         ),
-        # Node(
-        #     package='gazebo_ros',
-        #     executable='spawn_entity.py',
-        #     arguments=["-topic", "/robot_description", "-entity", "rover_proto_A1_rviz"],
-        #     name='urdf_spawner',
-        #     output='screen' )
 
         # Node(
         #     package='joint_state_publisher_gui',
