@@ -18,8 +18,7 @@
 
 - Launch rover in Gazebo `ros2 launch line_following_rover rviz.launch.py`.
 
-- Run the line_tracking_node to start the sim `ros2 run line_following_rover autonomous_driving_node`
-
+- Run the line_tracking_node to start the line following node `ros2 run line_following_rover autonomous_driving_node`.
 
 
 ## Project Flow ------
@@ -63,7 +62,7 @@ It subscribes to the camera's raw image topic and utilizes computer vision techn
 This middle point guides the rover's steering, ensuring it stays centered on the track.
 
 * Simultaneously, the node tracks an imaginary point ahead of the camera to maintain forward motion. 
-Both the steering and forward motion are controlled using simple Proportional-Derivative (PD) controllers for smooth and responsive operation.
+Both the steering and forward motion are controlled using simple `Proportional-Derivative (PD)` controllers for smooth and responsive operation.
 
 
 
