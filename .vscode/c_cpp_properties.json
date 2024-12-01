@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/line_following_rover/include/**",
+                "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/cpp_pubsub/include/**",
+                "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/px4_ros_com/include/**",
+                "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/include/**",
+                "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/line_following_rover/include/**",
+                "/usr/include/opencv4/**",
+                "/usr/local/include/**",
+                "/usr/include/**",
+                "/opt/ros/humble/include/rcl"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
