@@ -1,9 +1,11 @@
-## This a project building a 4 wheel differential drive robot monitoring any anomalies in a warehouse.
+## This a project building a 4 wheel differential drive robot following a track using computer vision.
+
+
 To run the project,
 -- Create a ros2 C++ workspace.
-    # mkdir -p ~/ros2_ws/src/line_following_rover
--- Go to ros2_workspace/src/line_following_rover
-    #  cd ~/ros2_ws/src/line_following_rover 
+    # mkdir -p ~/ros2_ws/src
+-- Go to ros2_workspace/src/
+    #  cd ~/ros2_ws/src
 -- Clone repo
     # git clone https://github.com/ABMSaleheen/Line_Following_Rover.git -b main
 
